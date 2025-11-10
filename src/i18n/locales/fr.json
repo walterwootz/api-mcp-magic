@@ -3,6 +3,7 @@
     "title": "Convertisseur API → MCP",
     "subtitle": "Transformez les API en serveurs MCP en quelques secondes",
     "description": "L'outil en ligne gratuit le plus rapide pour convertir les spécifications OpenAPI et Swagger en serveurs Model Context Protocol (MCP) prêts pour la production. Support des SDK MCP officiels : Python, TypeScript/Node.js, Go, Rust, Java, Kotlin, C#, PHP, Ruby et Swift.",
+    "privacyNotice": "Rien n'est téléchargé sur serveurs, tout s'exécute sur votre client. Confidentialité d'abord.",
     "bannerTitle": "🏆 Convertisseur API → MCP n°1",
     "bannerSubtitle": "Gratuit. Pour toujours.",
     "badge1": "Ultra rapide",

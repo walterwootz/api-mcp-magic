@@ -198,6 +198,24 @@ const Index = () => {
               >DE</button>
             </div>
           </div>
+          
+          {/* Privacy Notice - Prominent Alert */}
+          <div className="mb-6 max-w-2xl mx-auto">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 blur-md opacity-30 animate-pulse"></div>
+              <div className="relative bg-gradient-to-r from-green-500/20 via-emerald-500/20 to-teal-500/20 backdrop-blur-sm border-2 border-green-500 px-6 py-4 rounded-xl">
+                <div className="flex items-center justify-center gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                  <p className="text-base md:text-lg font-bold text-foreground text-center">
+                    {t('header.privacyNotice')}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <p className="text-2xl md:text-3xl text-foreground mb-4 font-bold">
             {t('header.subtitle')}
           </p>
