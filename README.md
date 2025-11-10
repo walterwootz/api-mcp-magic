@@ -1,18 +1,23 @@
-# 🚀 API to MCP Converter
+<div align="center">
+
+![API to MCP Converter Screenshot](public/screenshot.png)
+🌐 **Working Live**: [https://convertmcp.com](https://convertmcp.com)
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF.svg)](https://vitejs.dev/)
 
+</div>
+
+
 > **Transform OpenAPI/Swagger specifications into production-ready Model Context Protocol (MCP) servers in seconds!**
+
+
 
 A free, open-source online tool that converts API specifications into MCP servers with support for 10+ programming languages. 100% client-side processing ensures your API specs never leave your browser.
 
-🌐 **Working Live**: [https://convertmcp.com](https://convertmcp.com)
-
-
-![API to MCP Converter Screenshot](public/screenshot.png)
 
 <div align="center">
 
