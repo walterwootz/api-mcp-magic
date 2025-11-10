@@ -174,6 +174,7 @@ const Index = () => {
               {t('header.title')}
             </h1>
           </div>
+
           <div className="flex justify-center mb-6">
             <div className="inline-flex border rounded-md bg-card/50 gap-1">
               <button
@@ -196,6 +197,39 @@ const Index = () => {
                 className={"px-3 py-1 text-sm font-medium rounded " + (i18n.language === 'de' ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:bg-muted')}
                 onClick={() => i18n.changeLanguage('de')}
               >DE</button>
+            </div>
+          </div>
+          
+          {/* GitHub CTA */}
+          <div className="mb-6 max-w-2xl mx-auto">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500 blur-lg opacity-40 group-hover:opacity-60 transition-opacity duration-300"></div>
+              <div className="relative bg-gradient-to-r from-purple-500/10 via-blue-500/10 to-indigo-500/10 backdrop-blur-sm border-2 border-purple-500/50 px-6 py-4 rounded-xl">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <Github className="h-8 w-8 text-purple-400" />
+                    <div className="text-left">
+                      <p className="text-lg font-bold text-foreground">
+                        {t('header.githubCta')}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {t('header.githubDescription')}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <a
+                      href="https://github.com/walterwootz/api-mcp-magic"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white font-semibold transition-all duration-200 transform hover:scale-105"
+                    >
+                      <Github className="h-4 w-4" />
+                      {t('header.viewOnGithub')}
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -248,15 +282,12 @@ const Index = () => {
           {/* Feature badges */}
             <div className="flex flex-wrap items-center justify-center gap-4 mt-8">
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30">
-              <img src="/icons/python.png" alt="Python" className="w-5 h-5" />
               <span className="text-sm font-semibold text-primary">{t('header.badge1')}</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/10 border border-secondary/30">
-              <img src="/icons/typescript.png" alt="TypeScript" className="w-5 h-5" />
               <span className="text-sm font-semibold text-secondary">{t('header.badge2')}</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/30">
-              <img src="/icons/go.png" alt="Go" className="w-5 h-5" />
               <span className="text-sm font-semibold text-accent">{t('header.badge3')}</span>
             </div>
           </div>
